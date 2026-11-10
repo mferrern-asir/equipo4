@@ -20,6 +20,11 @@
 | **Conexión / Sesión** | Conexión a Internet y cuenta de Microsoft obligatorias para la configuración inicial |
 
 ---
+El problema es que en el Hardware inicial pedía desactivar el TPM, pero para la instalación de W11 es obligatorio tener la versión 2.0.
 
-> [!NOTE]
-> Asegúrate de verificar cada uno de estos apartados en la BIOS/UEFI de tu placa base antes de iniciar el proceso de instalación para evitar incompatibilidades o errores de sistema.
+**Hardware inicial:**
+* 2 vCPU.
+* 4 GiB de RAM.
+* Disco de 80 GiB.
+* Firmware UEFI.
+* TPM virtual desactivado.
